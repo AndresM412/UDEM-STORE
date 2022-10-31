@@ -9,7 +9,7 @@
 			<img class="avatar" src="./img/logo.png" alt="Logo de la aplicación">
 			<form class="box login" action="" method="POST" autocomplete="off">
 				
-				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>UdeM Store</font></h5>
+				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>LOGIN</font></h5>
 
 				<div class="field">
 					<label class="label">Usuario</label>

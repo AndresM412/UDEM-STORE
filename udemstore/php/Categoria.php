@@ -168,7 +168,7 @@ class Categoria{
         $check_categoria=null;
     }
 
-    public static function Catego_lista(){
+    public static function Catego_lista($url,$pagina,$registros){
             $inicio = ($pagina>0) ? (($pagina * $registros)-$registros) : 0;
             $tabla="";
 

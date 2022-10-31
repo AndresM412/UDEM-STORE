@@ -460,7 +460,7 @@ class Usuario{
         }
         $guardar_usuario=null;
     }
-    public static function Usuario_lista(){
+    public static function Usuario_lista($pagina,$registros,$url){
         $inicio = ($pagina>0) ? (($pagina * $registros)-$registros) : 0;
         $tabla="";
     

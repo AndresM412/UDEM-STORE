@@ -29,6 +29,6 @@
 
         # Paginador usuario #
         require_once "./php/Usuario.php";
-        Usuario::Usuario_lista();
+        Usuario::Usuario_lista($pagina,$registros,$url);
     ?>
 </div>

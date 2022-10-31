@@ -31,6 +31,6 @@
 
         # Paginador producto #
         require_once "./php/Producto.php";
-        Producto::produ_lista();
+        Producto::produ_lista($pagina,$categoria_id,$registros,$url);
     ?>
 </div>

@@ -29,6 +29,6 @@
 
         # Paginador categoria #
         require_once "./php/Categoria.php";
-        Categoria::Catego_lista();
+        Categoria::Catego_lista($url,$pagina,$registros);
     ?> 
 </div>

@@ -687,7 +687,7 @@ class Producto{
         }
         $actualizar_producto=null;
     }
-    public static function produ_lista(){
+    public static function produ_lista($pagina,$categoria_id,$registros,$url){
         $inicio = ($pagina>0) ? (($pagina * $registros)-$registros) : 0;
         $tabla="";
     
