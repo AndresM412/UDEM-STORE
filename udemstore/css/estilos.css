@@ -1,12 +1,12 @@
 body,html{
 	height: 100%;
 	width: 100%;
-    background: #E3F2FD;
+    background: url(../img/principal.jpg) no-repeat center top;
     background-size: cover; 
     font-family: serif;
 } 
 
 .navbar{
-    background-color: #1565C0;
-    border-radius: 20px;
+    background-color: #a8b5e0;
+    border-radius: 20px;
 }

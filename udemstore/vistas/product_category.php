@@ -45,8 +45,7 @@
 
                     # Eliminar producto #
                     if(isset($_GET['product_id_del'])){
-                        require_once "./php/Producto.php";
-                        Producto::produ_eliminar();
+                        require_once "./php/producto_eliminar.php";
                     }
 
                     if(!isset($_GET['page'])){
@@ -64,8 +63,7 @@
                     $busqueda="";
 
                     # Paginador producto #
-                    require_once "./php/Producto.php";
-                    Producto::produ_lista($pagina,$categoria_id,$registros,$url);
+                    require_once "./php/producto_lista.php";
 
                 }else{
                     echo '<h2 class="has-text-centered title" >Seleccione una categoría para empezar</h2>';

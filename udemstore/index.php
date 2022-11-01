@@ -11,11 +11,6 @@
                 $_GET['vista']="login";
             }
 
-            if(isset($_GET['controlador']) && is_file("./php/".$_GET['controlador'].".php")){
-
-                include "./php/".$_GET['controlador'].".php";
-                call_user_func([$_GET['controlador'], $_GET['metodo']]);
-            }
 
             if(is_file("./vistas/".$_GET['vista'].".php") && $_GET['vista']!="login" && $_GET['vista']!="404"){
 

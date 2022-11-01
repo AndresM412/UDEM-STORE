@@ -9,7 +9,7 @@
 			<img class="avatar" src="./img/logo.png" alt="Logo de la aplicación">
 			<form class="box login" action="" method="POST" autocomplete="off">
 				
-				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>LOGIN</font></h5>
+				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>Login</font></h5>
 
 				<div class="field">
 					<label class="label">Usuario</label>
@@ -26,7 +26,7 @@
 				</div>
 
 				<p class="has-text-centered mb-4 mt-3">
-					<button type="submit" class="button is-info is-rounded">Iniciar sesion</button>
+					<button type="submit" class="button is-info is-rounded">Iniciar sesión</button>
 				</p>
 
 				<?php

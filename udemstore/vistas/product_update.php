@@ -24,7 +24,7 @@
 	
 	<h2 class="title has-text-centered"><?php echo $datos['producto_nombre']; ?></h2>
 
-	<form action="index.php?controlador=Producto&metodo=produ_guardar&vista=product_update" method="POST" class="FormularioAjax" autocomplete="off" >
+	<form action="./php/producto_actualizar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 
 		<input type="hidden" name="producto_id" value="<?php echo $datos['producto_id']; ?>" required >
 

@@ -45,7 +45,7 @@ body,html{
 	width: 100%;
 	max-width: 400px;
 	min-width: 300px;
-	background-color: #2196F3;
+	background-color: #8fadee;
     color: black;
 }
 
@@ -56,8 +56,8 @@ body,html{
 .superior{
     width: 100%;
     height: 50px;
-	background-color: #1E88E5;
-    color: black;
+	background-color: #2d2082;
+    color: rgb(7, 0, 0);
 	font-weight: bold;
     border-radius: 20px;
 }
@@ -133,5 +133,5 @@ body,html{
 }
 
 .main-container .has-text-centered button:hover{
-    color: #1565C0;
+    color: #1565C0;
 }

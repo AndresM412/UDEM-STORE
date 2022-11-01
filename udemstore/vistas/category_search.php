@@ -44,8 +44,7 @@
     <?php
             # Eliminar categoria #
             if(isset($_GET['category_id_del'])){
-                require_once "./php/Categoria.php";
-                Categoria::Catego_eliminar();
+                require_once "./php/categoria_eliminar.php";
             }
 
             if(!isset($_GET['page'])){
@@ -63,8 +62,7 @@
             $busqueda=$_SESSION['busqueda_categoria']; /* <== */
 
             # Paginador categoria #
-            require_once "./php/Categoria.php";
-            Categoria::Catego_lista();
+            require_once "./php/categoria_lista.php";
         } 
     ?>
 </div>

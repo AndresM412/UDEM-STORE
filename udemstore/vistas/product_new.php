@@ -10,7 +10,7 @@
 
 	<div class="form-rest mb-6 mt-6"></div>
 
-	<form action="index.php?controlador=Producto&metodo=produ_guardar&vista=product_new" method="POST" class="FormularioAjax" autocomplete="off" 
+	<form action="./php/producto_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" enctype="multipart/form-data" >
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">

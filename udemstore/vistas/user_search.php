@@ -43,8 +43,7 @@
     <?php
             # Eliminar usuario #
             if(isset($_GET['user_id_del'])){
-                require_once "./php/Usuario.php";
-                Usuario::Usuario_eliminar();
+                require_once "./php/usuario_eliminar.php";
             }
 
             if(!isset($_GET['page'])){
@@ -62,8 +61,7 @@
             $busqueda=$_SESSION['busqueda_usuario']; /* <== */
 
             # Paginador usuario #
-            require_once "./php/Usuario.php";
-            Usuario::Usuario_lista($pagina,$registros,$url);
+            require_once "./php/usuario_lista.php";
         } 
     ?>
 </div>

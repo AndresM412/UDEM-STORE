@@ -22,7 +22,7 @@
 
 	<div class="form-rest mb-6 mt-6"></div>
 
-	<form action="index.php?controlador=Categoria&metodo=Catego_actualizar&vista=category_update" method="POST" class="FormularioAjax" autocomplete="off" >
+	<form action="./php/categoria_actualizar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 
 		<input type="hidden" name="categoria_id" value="<?php echo $datos['categoria_id']; ?>" required >
 
